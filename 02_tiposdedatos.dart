@@ -10,4 +10,28 @@ main(){
   print(a+b);
 
   //TIpos de String
+  String nombre = 'Angel Morales';
+  String? puestoLaboral;
+  String nombre3 = "Yessica";
+  String nombre4 = 'Yessica';
+  String apellido = 'Lopez';
+  String nombreCompleto = '$nombre3 $apellido';
+    //Null safety
+  String? nombre2;
+
+  String multilinea = '''
+Hola Mundo
+¿como estas?
+$nombre
+O ' conor
+
+''';
+
+  print(nombre);
+  print(puestoLaboral);
+  print(nombre2);
+  print(nombre3 == nombre4);
+  print(multilinea);
+  print(nombreCompleto);
+
 }
