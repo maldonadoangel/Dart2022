@@ -27,11 +27,20 @@ O ' conor
 
 ''';
 
+
+
+// booleans
+
+bool? istrue = true;
+bool? isfalse = false;
+
   print(nombre);
   print(puestoLaboral);
   print(nombre2);
   print(nombre3 == nombre4);
   print(multilinea);
   print(nombreCompleto);
+  print(istrue);
+  print(isfalse);
 
 }
